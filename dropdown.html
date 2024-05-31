@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<style>
+		ul{
+			list-style-type:none;
+			margin:0;
+			padding:0:
+			position:relative;
+		overflow:hidden;
+		background-color:gray;
+		}
+		li{
+		
+			float:left;
+		padding:10px;
+		}
+		 li a {
+			text-decoration:none;
+			padding:10px;
+			color:yellow;;
+			background-color:gray;
+			padding:10px 15px;
+			display: inline-block;
+			
+		
+		}
+		li 
+			.dropdown{
+				display:inline-block;
+				position:relative;
+				
+			
+			}
+			
+			.dropdown-content {
+				postion:absolute;
+				display:none;
+				max-width:100px;
+				color:red;
+				z-indext:1;
+				padding:10px;
+			
+			}
+			.dropdown-content a{
+				 dispaly:block;
+				 color:red;
+				 padding:12px 17px;
+				 
+			}
+		.dropdown:hover .dropdown-content{
+			display:block;
+				
+		}
+			
+		</style>
+	</head>
+	<body>
+	<h1>Move the mouse over the text below to open the dropdown content.</h1>
+		<ul class="rahul">
+			<li><a href="#a">rahul</a></li>
+				<li><a href="#a">home</a></li>
+				<li><a href="#a">went</a></li>
+			<li class="dropdown"><a href="#a">yesterday</a>
+			<div class="dropdown-content">
+					<a href="#a">link 1</a>
+					<a href="#a">link 1</a>
+					<a href="#a">link 1</a>
+					<a href="#a">link 1</a>
+			</div>
+			</li>
+		</ul>
+	
+	</body>
+</html>	
+		 
